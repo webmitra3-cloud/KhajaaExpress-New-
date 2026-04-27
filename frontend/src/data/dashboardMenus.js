@@ -1,0 +1,33 @@
+export const dashboardMenus = {
+  user: [
+    { label: "Home", path: "/" },
+    { label: "Restaurants", path: "/restaurants" },
+    { label: "Orders", path: "/user/orders" },
+    { label: "Notifications", path: "/user/notifications" },
+    { label: "Messages", path: "/user/chat" },
+    { label: "Profile", path: "/user/profile" },
+  ],
+  vendor: [
+    { label: "Dashboard", path: "/vendor" },
+    { label: "Categories", path: "/vendor/categories" },
+    { label: "Offers", path: "/vendor/offers" },
+    { label: "Menu", path: "/vendor/menu" },
+    { label: "Orders", path: "/vendor/orders" },
+    { label: "Notifications", path: "/vendor/notifications" },
+    { label: "Reports", path: "/vendor/reports" },
+    { label: "Chat", path: "/vendor/chat" },
+    { label: "Profile", path: "/vendor/profile" },
+  ],
+  admin: [
+    { label: "Dashboard", path: "/admin" },
+    { label: "Users", path: "/admin/users" },
+    { label: "Vendors", path: "/admin/vendors" },
+    { label: "Approvals", path: "/admin/approvals" },
+    { label: "Foods", path: "/admin/foods" },
+    { label: "Orders", path: "/admin/orders" },
+    { label: "Notifications", path: "/admin/notifications" },
+    { label: "Homepage", path: "/admin/homepage" },
+    { label: "Reports", path: "/admin/reports" },
+    { label: "Profile", path: "/admin/profile" },
+  ],
+};

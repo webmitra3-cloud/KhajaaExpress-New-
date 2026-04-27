@@ -1,0 +1,21 @@
+﻿const ORDER_STATUS = {
+  PLACED: "Order placed",
+  CONFIRMED: "Order confirmed",
+  PREPARING: "Preparing",
+  OUT_FOR_DELIVERY: "Out for delivery",
+  DELIVERED: "Delivered",
+  CANCELLED: "Cancelled",
+};
+
+const ORDER_STATUS_FLOW = [
+  ORDER_STATUS.PLACED,
+  ORDER_STATUS.CONFIRMED,
+  ORDER_STATUS.PREPARING,
+  ORDER_STATUS.OUT_FOR_DELIVERY,
+  ORDER_STATUS.DELIVERED,
+];
+
+module.exports = {
+  ORDER_STATUS,
+  ORDER_STATUS_FLOW,
+};
